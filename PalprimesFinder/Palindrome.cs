@@ -12,7 +12,7 @@ namespace PalprimesFinder
          **/
         public bool IsPalindrome(string s)
         {
-            return s.Equals(new String(s.Reverse().ToArray()));
+            return s != null && s.Equals(new string(s.Reverse().ToArray()));
         }
     }
 }
