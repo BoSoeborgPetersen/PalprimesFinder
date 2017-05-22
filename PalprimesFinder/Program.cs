@@ -8,7 +8,7 @@ namespace PalprimesFinder
     {
         public const long rangeMin = 1;
         public const long rangeMax = 1000;
-        public const int defaultNumberBase = 16;
+        public const int defaultNumberBase = 10;
 
         public static void Main(string[] args)
         {
