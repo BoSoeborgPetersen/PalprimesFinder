@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PalprimesFinder
 {
@@ -11,10 +12,8 @@ namespace PalprimesFinder
 
         public static void Main(string[] args)
         {
-            int numberBase = defaultNumberBase;
-            if (args != null && args.Length == 1 && !string.IsNullOrWhiteSpace(args[0]))
-                if (!int.TryParse(args[0], out numberBase))
-                    numberBase = defaultNumberBase;
+            int.TryParse(args?.ElementAtOrDefault(0), out int numberBase);
+            if (numberBase == 0) numberBase = defaultNumberBase;
 
             var palprimesFinder = new Palprimes();
 
