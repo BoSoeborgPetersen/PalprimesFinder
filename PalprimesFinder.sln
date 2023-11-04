@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalprimesFinder", "PalprimesFinder\PalprimesFinder.csproj", "{BDEF1E43-8691-4784-81E3-D92480C39BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalprimesFinder", "PalprimesFinder\PalprimesFinder.csproj", "{BDEF1E43-8691-4784-81E3-D92480C39BDD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalprimesFinder.Tests", "PalprimesFinder.Tests\PalprimesFinder.Tests.csproj", "{83FB5AE0-82A5-4E01-905E-BA07ACC77B04}"
 EndProject
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F15981-443D-4976-816E-662E0D9D4BE2}
 	EndGlobalSection
 EndGlobal
